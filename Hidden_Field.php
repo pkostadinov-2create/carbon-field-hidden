@@ -1,6 +1,8 @@
 <?php
 
-class Carbon_Field_Hidden extends Carbon_Field {
+namespace Carbon_Fields\Field;
+
+class Hidden_Field extends Field {
 	public $field_html;
 	protected $wide = true;
 	protected $default_value = 'placeholder';

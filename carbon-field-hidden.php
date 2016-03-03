@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Carbon Field: FIELD_NAME
-Description: Extends base Carbon fields with a FIELD_NAME field. 
+Plugin Name: Carbon Field: Hidden
+Description: Extends base Carbon fields with a Hidden field. 
 Version: 1.0.0
 */
 
@@ -16,7 +16,7 @@ load_plugin_textdomain('carbon-field-hidden', false, dirname( plugin_basename(__
  */
 add_action('after_setup_theme', 'crb_init_carbon_field_hidden', 15);
 function crb_init_carbon_field_hidden() {
-	if (class_exists("Carbon_Field")) {
-		include_once dirname(__FILE__) . '/Carbon_Field_Hidden.php';
+	if (class_exists("Carbon_Fields\\Field\\Field")) {
+		include_once dirname(__FILE__) . '/Hidden_Field.php';
 	}
 }
