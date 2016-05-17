@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Carbon Field: FIELD_NAME
-Description: Extends base Carbon fields with a FIELD_NAME field. 
+Plugin Name: Carbon Field: Carbon_Field_Hidden
+Description: Extends base Carbon fields with a Carbon_Field_Hidden field. 
 Version: 1.0.0
 */
 
