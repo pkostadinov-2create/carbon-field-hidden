@@ -1,0 +1,18 @@
+{
+    "name": "pkostadinov-2create/carbon-field-hidden",
+    "description": "A basic Carbon Fields extension, that adds support for Hidden type field.",
+    "keywords": ["wordpress", "carbon-field", "carbon-field-hidden", "carbon"],
+    "homepage": "https://github.com/pkostadinov-2create/carbon-field-hidden",
+    "type": "library",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Plamen Kostadinov",
+            "email": "pkostadinov.2create@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["carbon-field-hidden.php"]
+    }
+}
